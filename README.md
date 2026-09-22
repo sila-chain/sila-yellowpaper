@@ -14,11 +14,11 @@ The Yellow Paper is out of date. It reflects the Sila specification up to the [S
 
 It does **not** yet contain changes introduced by the SilaCancun upgrade.
 
-An alternative [Python Execution Layer specification](https://sila.github.io/execution-specs/) is actively maintained and up to date. 
+An alternative [Python Execution Layer specification](https://github.com/sila-chain/execution-specs) is actively maintained and up to date. 
 
 ## Usage
 
-If you just want to read the paper, the latest version is generally available as a PDF at https://sila.github.io/yellowpaper/paper.pdf. If you find that the borders for links block too much text when viewing the PDF in the browser, you can instead download it and open and view it with a PDF viewer application such as Adobe Acrobat or Evince, where the borders are less likely to display over text.
+A published PDF is not currently configured for this repository. To read or edit the paper, build it locally as described below.
 
 However, if you want to edit the paper, then read on. The paper comes as a single ``latex`` file ``Paper.tex``.  
 
@@ -27,8 +27,8 @@ It is recommended to use an IDE such as [Visual Studio Code](https://code.visual
 Another option is to separately edit the `tex` file and build as follows (you'll still need to clone the repo then open the yellowpaper folder):
 
 ```
-git clone https://github.com/sila-chain/yellowpaper.git
-cd yellowpaper
+git clone https://github.com/sila-chain/sila-yellowpaper.git
+cd sila-yellowpaper
 ./build.sh
 ```
 This will create a PDF version of the Yellow Paper. Following building, you can also use standard `pdflatex` tools for compiling/preview, like http://latex.informatik.uni-halle.de/latex-online/latex.php.
@@ -42,6 +42,6 @@ You can use [TeX Stack Exchange](https://tex.stackexchange.com/); https://en.wik
 The previous protocol versions are listed in [BRANCHES.md](./BRANCHES.md).
 
 ### Other language versions
-- [Chinese](https://github.com/yuange1024/sila_yellowpaper) translated by YuanGe and GaoTianlu.
+- [Chinese](https://github.com/yuange1024/ethereum_yellowpaper) translated by YuanGe and GaoTianlu.
 - [French](https://github.com/asseth/yellowpaper) translated by Asseth (checkout to branch 'french' ).
-- [Vietnamese](https://github.com/kodyfanz/sila_yellowpaper_vn) translated by KodyFanz (checkout to branch 'vietnamese').
+- [Vietnamese](https://github.com/kodyfanz/ethereum_yellowpaper_vn) translated by KodyFanz (checkout to branch 'vietnamese').
