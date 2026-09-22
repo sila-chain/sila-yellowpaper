@@ -10,10 +10,10 @@ deploy:
   script: ./travis_deploy.sh
   skip_cleanup: true
   on:
-    branch: master
+    branch: main
 env:
   global:
     - ENCRYPTION_LABEL="19a81de38b62"
     - COMMIT_AUTHOR_EMAIL="chris@sila.org"
     - COMMIT_AUTHOR="Travis CI"
-    - PUSH_REPO="git@github.com:sila/yellowpaper.git"
+    - PUSH_REPO="git@github.com:sila-chain/sila-yellowpaper.git"
