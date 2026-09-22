@@ -10,7 +10,7 @@ It is a free culture work, licensed under Creative Commons Attribution Share-Ali
 
 ## Repository Currently Outdated
 
-The Yellow Paper is out of date. It reflects the Sila specification up to the [SilaShanghai](https://github.com/sila-chain/execution-specs/blob/master/network-upgrades/sila-mainnet-upgrades/shanghai.md) network upgrade, activated on the Sila sila-mainnet at block `17_034_870` (April 2023). 
+The Yellow Paper is out of date. It reflects the Sila specification up to the [SilaShanghai](https://github.com/sila-chain/execution-specs/blob/forks/amsterdam/src/sila/forks/shanghai/__init__.py) network upgrade, activated on the Sila sila-mainnet at block `17_034_870` (April 2023). 
 
 It does **not** yet contain changes introduced by the SilaCancun upgrade.
 
